@@ -18,11 +18,12 @@ ul {
 li a {
 	color: darkslateblue;
 	padding: 1em 1.5em;
-	display: block;
+	display: inline;
 	margin: 5px;
 	background-color: white;
 	border-radius: 10px;
 	text-decoration: none;
+
 }
 
 /*Hover effect for the list items in the nav*/
