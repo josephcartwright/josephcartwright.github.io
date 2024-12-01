@@ -1,37 +1,32 @@
 /*This is the style sheet for the website*/
 
 /*Styling for the navigation to float at the top of the page aligned to the left, with the list items in a row*/
-nav {
-	background-color: lightblue;
-	height: 100vh;
-	float: left;
-}
-
-/*List items in the nav aligned to the left*/
 ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-/*Styling for the list items in the nav, with white boxes around the text*/
-li a {
-	color: darkslateblue;
-	padding: 1em 1.5em;
-	display: inline;
-	margin: 5px;
-	background-color: white;
-	border-radius: 10px;
-	text-decoration: none;
-
+li {
+    float: left;
 }
 
-/*Hover effect for the list items in the nav*/
-	li a:hover {
-		background-color: lightgrey;
-		color: white;
-	}
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
 
-.container {
-	display: flex;
+        li a:hover {
+            background-color: #111;
+        }
+
+/*Styling for the main content to float below the navigation*/
+#Main {
+    width: 100%;
+    padding: 15px;
 }
